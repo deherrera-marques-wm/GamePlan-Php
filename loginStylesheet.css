@@ -1,0 +1,13 @@
+body {
+    align-content: center;
+    text-align: center;
+    background-color: #1D279B;
+}
+
+#login {
+    width: 285px;
+    position: fixed;
+    left: 575px;
+    background-color: white;
+
+}

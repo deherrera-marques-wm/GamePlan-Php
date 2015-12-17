@@ -1,0 +1,13 @@
+#info {
+    width: 285px;
+    position: fixed;
+    left: 575px;
+    background-color: white;
+    text-align: center;
+}
+
+body {
+    align-content: center;
+    background-color: #1D279B;
+}
+
