@@ -28,10 +28,11 @@
             <div id="LoginArea" style="color: white;">
                 <!-- This is where the Login and Username and SignUp with a new account will happen -->
                 <a href="loginPage.php">
-                    <p style="margin-top: 0; margin-bottom: 0; color: #FDFFFC;">Login</p>
+                    Login
                 </a>
+                <br>
                 <a href="createAccount.php">
-                    <p style="margin-top: 0; margin-bottom: 0; color: #FDFFFC;">Sign Up</p>
+                    Sign Up
                 </a>
             </div>
         </div>
