@@ -53,6 +53,4 @@
 </div>
 </body>
 </html>
-<?php
-
-?>
+<?php ?>
