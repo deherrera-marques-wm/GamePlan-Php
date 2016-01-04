@@ -3,6 +3,7 @@
 <head>
     <title>GamePlan Profile</title>
     <link href="Styles_Index.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="GamePlan_logo_2.png">
     <script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>

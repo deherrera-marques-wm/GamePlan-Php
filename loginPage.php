@@ -3,6 +3,7 @@
 <head>
     <title>GamePlan Login</title>
     <link type="text/css" rel="stylesheet" href="loginStylesheet.css">
+    <link rel="icon" type="image/png" href="GamePlan_logo_2.png">
 </head>
 <body>
 <a href="index.php">

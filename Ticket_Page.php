@@ -3,6 +3,7 @@
 <head>
     <title>GamePlan Purchase Page</title>
     <link href="Styles_Index.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="GamePlan_logo_2.png">
 </head>
 <body>
 <div id="Main">
@@ -28,10 +29,11 @@
             <div id="LoginArea" style="color: white;">
                 <!-- This is where the Login and Username and SignUp with a new account will happen -->
                 <a href="loginPage.php">
-                    <p style="margin-top: 0; margin-bottom: 0; color: #FDFFFC;">Login</p>
+                    Login
                 </a>
+                <br>
                 <a href="createAccount.php">
-                    <p style="margin-top: 0; margin-bottom: 0; color: #FDFFFC;">Sign Up</p>
+                    Sign Up
                 </a>
             </div>
         </div>
@@ -47,7 +49,7 @@
     </div>
     <div id="Name"></div>
     <div id="Ticket_Purchase_1">
-        <p style="float: left; margin-top: 0">State where event is being held</p>
+        <p style="float: left; margin-top: 0">State where event is being held</p><br><br>
         <p style="float: left; margin-top: 0">Name of Event</p><input style="float: left; margin-top: 0" type="text" title="Name_of_Event"><br><br>
         <p style="float: left; margin-top: 0">Number of Tickets</p><input style="float: left; margin-top: 0" type="number" title="Number_of_Tickets"><br><br>
         <p style="float: left; margin-top: 0">Event Start Date</p><input style="float: left; margin-top: 0" type="date" title="Event_Start_Date"><br><br>
