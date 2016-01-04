@@ -42,9 +42,6 @@
             <a href="index.php"><div class="NavigationBox"><h3 style="margin-top: 2px; text-align: center;">Home</h3></div></a>
             <a href="profile.php"><div class="NavigationBox"><h3 style="margin-top: 2px; text-align: center;">Profile</h3></div></a>
             <a href="Ticket_Page.php"><div class="NavigationBox"><h3 style="margin-top: 2px; text-align: center;">Buy Tickets</h3></div></a>
-            <a href=""><div class="NavigationBox"><h3 style="margin-top: 2px; text-align: center;"></h3></div></a>
-            <a href=""><div class="NavigationBox"><h3 style="margin-top: 2px; text-align: center;"></h3></div></a>
-            <a href=""><div class="NavigationBox"><h3 style="margin-top: 2px; text-align: center;"></h3></div></a>
         </div>
     </div>
     <!-- This is where everything inside the Main div will go that's not inside the header or navigation -->
