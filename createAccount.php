@@ -3,6 +3,7 @@
 <head>
     <title>GamePlan Create</title>
     <link rel="stylesheet" type="text/css" href="create_stylesheet.css">
+    <link rel="icon" type="image/png" href="GamePlan_logo_2.png">
 </head>
 <body>
 <a href="index.php">

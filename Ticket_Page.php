@@ -3,6 +3,7 @@
 <head>
     <title>GamePlan Purchase Page</title>
     <link href="Styles_Index.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="GamePlan_logo_2.png">
 </head>
 <body>
 <div id="Main">
