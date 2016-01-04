@@ -48,7 +48,7 @@
     </div>
     <div id="Name"></div>
     <div id="Ticket_Purchase_1">
-        <p style="float: left; margin-top: 0">State where event is being held</p>
+        <p style="float: left; margin-top: 0">State where event is being held</p><br><br>
         <p style="float: left; margin-top: 0">Name of Event</p><input style="float: left; margin-top: 0" type="text" title="Name_of_Event"><br><br>
         <p style="float: left; margin-top: 0">Number of Tickets</p><input style="float: left; margin-top: 0" type="number" title="Number_of_Tickets"><br><br>
         <p style="float: left; margin-top: 0">Event Start Date</p><input style="float: left; margin-top: 0" type="date" title="Event_Start_Date"><br><br>
