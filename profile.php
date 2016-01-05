@@ -45,7 +45,7 @@
         <h2>Address</h2>
     </div>
     <div id="description">
-        <button onclick="prompt1()">Add a description</button><div id="bio1" style="margin-top: 5px;"></div>
+        <button onclick="prompt1()">Add a description for yourself</button><div id="bio1" style="margin-top: 5px;"></div>
     </div>
     <h1 style="margin-top: 277px; margin-left: 25px;">Profile Name</h1>
 </div>
