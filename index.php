@@ -39,9 +39,11 @@
         </div>
         <div id="Navigation">
             <!-- everything navigation goes here (other than signing up and logging out and creating new accounts) -->
-            <a href="index.php"><div class="NavigationBox"><h3 style="margin-top: 2px; text-align: center;">Home</h3></div></a>
-            <a href="profile.php"><div class="NavigationBox"><h3 style="margin-top: 2px; text-align: center;">Profile</h3></div></a>
-            <a href="Ticket_Page.php"><div class="NavigationBox"><h3 style="margin-top: 2px; text-align: center;">Buy Tickets</h3></div></a>
+            <div id="control_nav">
+                <a href="index.php"><div class="NavigationBox" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Home</h3></div></a>
+                <a href="profile.php"><div class="NavigationBox" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Profile</h3></div></a>
+                <a href="Ticket_Page.php"><div class="NavigationBox" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Buy Tickets</h3></div></a>
+            </div>
         </div>
     </div>
     <!-- This is where everything inside the Main div will go that's not inside the header or navigation -->
@@ -84,7 +86,7 @@
     </div>
     <div id="AboutUs_Info_Index">
         <h1 style="text-align: center;">About Us</h1>
-        <p style="text-align: center; font-size: 18px">
+        <p style="text-align: center; font-size: 18px; margin-left: 4px; margin-right: 4px;">
             &nbsp&nbsp&nbsp Welcome to our game conference ticket distribution service. Many of the viewer who come on this site will not
             read this because they have better ways to spend their days, but if you're that lucky person who's reading
             this than you are awesome. We started off as lone coders but came together with a common goal, gaming conference

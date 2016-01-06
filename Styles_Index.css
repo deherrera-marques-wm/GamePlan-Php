@@ -3,9 +3,8 @@
     margin-top: 4px;
     width: 100%;
     height: 79px;
-    background-color: #46d146;
+    background-color: #1D279B;
     opacity: 0.75;
-    border-style: groove;
 }
 #Navigation{
     width: 100%;
@@ -14,15 +13,12 @@
     padding: 0;
     opacity: 0.75;
     text-align: center;
-    align-content: center;
 }
 .NavigationBox{
     height: 27px;
     width: 125px;
-    margin-right: 3px;
-    margin-left: 3px;
     background-color: #b01621;
-    float: left;
+    text-align: center;
 }
 a > p{
     text-decoration: none;
@@ -32,8 +28,8 @@ a > p{
     padding: 0;
     float:right;
     width: 180px;
-    height: 80px;
-    background-color: #1D279B;
+    height: 79px;
+    background-color: #000000;
 }
 #LoginArea a:link {
     color: #2fff27;
@@ -171,4 +167,9 @@ a > p{
     background-color: #D21620;
     margin-top: 15px;
     margin-left: 100px;
+}
+#control_nav{
+    width: 393px;
+    height: 27px;
+    margin-left: 50%;
 }

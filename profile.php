@@ -30,9 +30,11 @@
         </div>
         <div id="Navigation">
             <!-- everything navigation goes here (other than signing up and logging out and creating new accounts) -->
-            <a href="index.php"><div class="NavigationBox"><h3 style="margin-top: 2px; text-align: center;">Home</h3></div></a>
-            <a href="profile.php"><div class="NavigationBox"><h3 style="margin-top: 2px; text-align: center;">Profile</h3></div></a>
-            <a href="Ticket_Page.php"><div class="NavigationBox"><h3 style="margin-top: 2px; text-align: center;">Buy Tickets</h3></div></a>
+            <div id="control_nav">
+                <a href="index.php"><div class="NavigationBox" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Home</h3></div></a>
+                <a href="profile.php"><div class="NavigationBox" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Profile</h3></div></a>
+                <a href="Ticket_Page.php"><div class="NavigationBox" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Buy Tickets</h3></div></a>
+            </div>
         </div>
     </div>
     <div id="Name"></div>
