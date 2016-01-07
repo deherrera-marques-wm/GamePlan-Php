@@ -4,14 +4,12 @@
     width: 100%;
     height: 79px;
     background-color: #1D279B;
-    opacity: 0.75;
 }
 #Navigation{
     width: 100%;
     height: 27px;
     background-color: #D21620;
     padding: 0;
-    opacity: 0.75;
     text-align: center;
 }
 .NavigationBox{
