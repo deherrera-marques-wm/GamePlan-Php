@@ -23,7 +23,7 @@
                 }
                 //script for highlighting & reverting back to normal the Nav bar buttons
                 function NavHighLight(special) {
-                    special.style.backgroundColor = "#2fff27";
+                    special.style.backgroundColor = "#42CE41";
                     special.style.color = "#000000";
                 }
                 function NavUnHighlight(normal){
