@@ -110,6 +110,8 @@
             <li>12/01 Project Start</li>
             <li>12/06 Index Page is Made</li>
             <li>12/11 Last Minute Rush</li>
+            <li>01/04 Back to the drawing board</li>
+            <li>01/15 The Final Product is finally here</li>
         </ul>
     </div>
 </div>
