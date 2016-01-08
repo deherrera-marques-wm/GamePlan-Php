@@ -21,6 +21,15 @@
                 function UnHighlight() {
                     document.getElementById("Logo").style.opacity = "1";
                 }
+                //script for highlighting & reverting back to normal the Nav bar buttons
+                function NavHighLight(special) {
+                    special.style.backgroundColor = "#42CE41";
+                    special.style.color = "#000000";
+                }
+                function NavUnHighlight(normal){
+                    normal.style.backgroundColor = "#b01621";
+                    normal.style.color = "#4a0780";
+                }
             </script>
             <a href="index.php">
                 <img id="Logo" src="GamePlan_logo_2.png" style="height: 80px; width: 116px;" alt="Logo" onmouseover="Highlight()" onmouseout="UnHighlight()">
@@ -40,9 +49,9 @@
         <div id="Navigation">
             <!-- everything navigation goes here (other than signing up and logging out and creating new accounts) -->
             <div id="control_nav">
-                <a href="index.php"><div class="NavigationBox" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Home</h3></div></a>
-                <a href="profile.php"><div class="NavigationBox" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Profile</h3></div></a>
-                <a href="Ticket_Page.php"><div class="NavigationBox" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Buy Tickets</h3></div></a>
+                <a href="index.php"><div class="NavigationBox" onmouseover="NavHighLight(this)" onmouseout="NavUnHighlight(this)" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Home</h3></div></a>
+                <a href="profile.php"><div class="NavigationBox" onmouseover="NavHighLight(this)" onmouseout="NavUnHighlight(this)" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Profile</h3></div></a>
+                <a href="Ticket_Page.php"><div class="NavigationBox" onmouseover="NavHighLight(this)" onmouseout="NavUnHighlight(this)" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Buy Tickets</h3></div></a>
             </div>
         </div>
     </div>
@@ -101,6 +110,8 @@
             <li>12/01 Project Start</li>
             <li>12/06 Index Page is Made</li>
             <li>12/11 Last Minute Rush</li>
+            <li>01/04 Back to the drawing board</li>
+            <li>01/15 The Final Product is finally here</li>
         </ul>
     </div>
 </div>
