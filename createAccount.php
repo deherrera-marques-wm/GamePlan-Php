@@ -65,13 +65,13 @@ if(@$_POST['formSubmit'] == "Submit")
 //        $varapt = $_POST['apt'];
 
 
-        $stmt = $dbh->prepare("INSERT INTO users (firstName, lastName, userName, password, phoneNum, email, address, city, state, zipCode, apt) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    $stmt = $dbh->prepare("INSERT INTO users (firstName, lastName, userName, password, phoneNum, email, address, city, state, zipCode, apt) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
-        $result = $stmt->execute(array($_POST['fName'], $_POST['lName'], $_POST['user'], $_POST['password'], $_POST['phoneNum'], $_POST['email'], $_POST['address'], $_POST['city'], $_POST['state'], $_POST['zip'], $_POST['apt']));
+    $result = $stmt->execute(array($_POST['fName'], $_POST['lName'], $_POST['user'], $_POST['password'], $_POST['phoneNum'], $_POST['email'], $_POST['address'], $_POST['city'], $_POST['state'], $_POST['zip'], $_POST['apt']));
 
-        if(!$result){
-            print_r($stmt->errorInfo());
-        }
+    if(!$result){
+        print_r($stmt->errorInfo());
+    }
 
     if(!empty($errorMessage))
     {
