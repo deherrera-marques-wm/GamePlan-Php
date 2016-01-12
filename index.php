@@ -151,9 +151,9 @@
 
 <footer class="container-fluid text-center">
     <a href="#myPage" title="To Top">
-        <span class="glyphicon glyphicon-chevron-up"></span>
+        <span href="#myCarousel" class="glyphicon glyphicon-chevron-up"></span>
     </a>
-    <p>Back To The Top</p>
+    <p href="#myCarousel">Back To The Top</p>
 </footer>
 
 <script src="jquery.js" type="text/javascript"></script>
