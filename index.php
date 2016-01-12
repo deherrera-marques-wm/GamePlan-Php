@@ -16,8 +16,21 @@
             text-align: right;
               }
         #panels {
-            margin-top: 250px;
+            margin-top: 175px;
+			background-color: #EAEAEA;
+			font-size: 12px;
+			font-family: Georgia, "Times New Roman", Times, serif;
         }
+		#Abouthead {
+			text-align: center;
+		}
+		img {
+			display: none
+		}
+		h3 {
+			font-family: Elephant;
+			text-align: center;
+		}
     </style>
 </head>
 <body>
@@ -44,26 +57,50 @@
         <img src="GamePlan%20Pictures/GamePlan%204.jpg" id="image4" style="display: none;">
         <img src="GamePlan%20Pictures/GamePlan%205.png" id="image5" style="display: none;">
     </div>
-<div id="Abouthead">
+    <div id="panels">
+    <div id="Abouthead">
     <h1>About Us</h1>
 </div>
 <div class="row">
-    <div id="panels">
     <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
             <div class="caption">
                 <h3>Marques</h3>
-                <p>One of the webdesigners and the scrum master of this awesome project.</p>
+                <p>One of the webdesigners and the scrum master of this awesome project. He helped to
+                design the outlook of GamePlan.</p>
             </div>
         </div>
     </div>
+    <div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3>Nick</h3>
+                <p>The Project Manager and leading man of this crew, Nick helped to establish the
+                PHP server and databases for all the account information.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3>Corbin</h3>
+                <p>The head designer, Corbin has helped to shape the look and design of the website of GamePlan.</p>
+            </div>
+        </div>
+    </div>
+    </div>
 </div>
 </div>
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Back To The Top</p>
+</footer>
 
 <script src="jquery.js" type="text/javascript"></script>
 <script src="Picture_Slider.js" type="text/javascript"></script>
 </body>
 </html>
-<?php
-
-?>
