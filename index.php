@@ -66,7 +66,7 @@
         <div class="thumbnail">
             <div class="caption">
                 <h3>Marques</h3>
-                <p>One of the webdesigners and the scrum master of this awesome project. He helped to
+                <p>One of the web designers and the scrum master of this awesome project. He helped to
                 design the outlook of GamePlan.</p>
             </div>
         </div>
