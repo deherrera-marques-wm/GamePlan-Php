@@ -3,21 +3,9 @@
     margin-top: 0;
     width: 100%;
     height: 79px;
-    background-color: #1D279B;
+    background-color: white;
 }
-#Navigation{
-    width: 100%;
-    height: 27px;
-    background-color: #D21620;
-    padding: 0;
-    text-align: center;
-}
-.NavigationBox{
-    height: 27px;
-    width: 125px;
-    background-color: #b01621;
-    text-align: center;
-}
+
 a > p{
     text-decoration: none;
 }
@@ -27,7 +15,7 @@ a > p{
     float:right;
     width: 180px;
     height: 79px;
-    background-color: #000000;
+    background-color: white;
 }
 #LoginArea a:link {
     color: #2fff27;
@@ -54,7 +42,7 @@ a > p{
     font-size: 40px;
 }
 #Main{
-    background-color: #235789;
+    background-color: white;
     height: 1500px;
     width: 100%;
     margin: 0;
@@ -63,16 +51,8 @@ a > p{
 #Picture_Slider {
     width: 100%;
     height: 342px;
-    margin-top: 116px;
-    background-color: #235789;
 }
-#Header_Nav{
-    position: fixed;
-    width: 100%;
-    height: 107px;
-    background-color: transparent;
-    z-index: 20;
-}
+
 #TopSpace{
     width: 100%;
     height: 1px;
@@ -165,9 +145,4 @@ a > p{
     background-color: #D21620;
     margin-top: 15px;
     margin-left: 100px;
-}
-#control_nav{
-    width: 393px;
-    height: 27px;
-    margin-left: 50%;
 }

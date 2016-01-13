@@ -4,119 +4,159 @@
     <title>GamePlan</title>
     <link href="Styles_Index.css" type="text/css" rel="stylesheet">
     <link rel="icon" type="image/png" href="GamePlan_logo_2.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+        #Goalsheader{
+            text-align: center;
+        }
+        #signlogin {
+            align-content: right;
+            align-items: right;
+            text-align: right;
+        }
+        #panels {
+            margin-top: 325px;
+            background-color: #EAEAEA;
+            font-family: Georgia, "Times New Roman", Times, serif;
+        }
+        #panels > h3 {
+            font-size: 75px;
+        }
+        #panels > p {
+            font-size: 16px;
+        }
+        #Abouthead {
+            text-align: center;
+        }
+        img {
+            display: none
+        }
+        h3 {
+            font-family: Elephant;
+            text-align: center;
+        }
+        #Goalsheader > p {
+            width: 500px;
+            align-content: center;
+            text-align: center;
+            margin-left: 450px;
+        }
+    </style>
 </head>
 <body>
-<div id="Main">
-    <div id="TopSpace">
-        <!-- Nothing goes here this is just here to make is so I can have a margin on the <div id="Header"> -->
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="index.php">Home</a></li>
+            <li role="presentation"><a href="profile.php">Profile</a></li>
+            <li role="presentation"><a href="Ticket_Page.php">Events</a></li>
+            <div id="signlogin">
+                <button type="button" class="btn btn-default navbar-btn"><a href="loginPage.php"> Sign in</a></button>
+                <button type="button" class="btn btn-default navbar-btn"><a href="createAccount.php"> Create Account</a></button>
+            </div>
+        </ul>
+
+
     </div>
-    <div id="Header_Nav">
-        <div id="Header">
-            <!-- script link for highlight for picture and following header. -->
-            <script>
-                //for highlighting the GamePlan logo
-                function Highlight() {
-                    document.getElementById("Logo").style.opacity = "0.35";
-                }
-                function UnHighlight() {
-                    document.getElementById("Logo").style.opacity = "1";
-                }
-                //script for highlighting & reverting back to normal the Nav bar buttons
-                function NavHighLight(special) {
-                    special.style.backgroundColor = "#42CE41";
-                    special.style.color = "#000000";
-                }
-                function NavUnHighlight(normal){
-                    normal.style.backgroundColor = "#b01621";
-                    normal.style.color = "#4a0780";
-                }
-            </script>
-            <a href="index.php">
-                <img id="Logo" src="GamePlan_logo_2.png" style="height: 80px; width: 116px;" alt="Logo" onmouseover="Highlight()" onmouseout="UnHighlight()">
-            </a>
-            <!-- Main Header should go here -->
-            <div id="LoginArea" style="color: white;">
-                <!-- This is where the Login and Username and SignUp with a new account will happen -->
-                <a href="loginPage.php">
-                    Login
-                </a>
-                <br>
-                <a href="createAccount.php">
-                    Sign Up
-                </a>
-            </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="GamePlan%20Pictures/GamePlan%201.jpg" alt="Chania">
         </div>
-        <div id="Navigation">
-            <!-- everything navigation goes here (other than signing up and logging out and creating new accounts) -->
-            <div id="control_nav">
-                <a href="index.php"><div class="NavigationBox" onmouseover="NavHighLight(this)" onmouseout="NavUnHighlight(this)" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Home</h3></div></a>
-                <a href="profile.php"><div class="NavigationBox" onmouseover="NavHighLight(this)" onmouseout="NavUnHighlight(this)" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Profile</h3></div></a>
-                <a href="Ticket_Page.php"><div class="NavigationBox" onmouseover="NavHighLight(this)" onmouseout="NavUnHighlight(this)" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Buy Tickets</h3></div></a>
-            </div>
+
+        <div class="item">
+            <img src="GamePlan%20Pictures/GamePlan%202.png" alt="Chania">
+        </div
+
+        <div class="item">
+            <img src="GamePlan%20Pictures/GamePlan%203.jpg" alt="Flower">
+        </div>
+
+        <div class="item">
+            <img src="GamePlan%20Pictures/GamePlan%204.jpg" alt="Flower">
         </div>
     </div>
-    <!-- This is where everything inside the Main div will go that's not inside the header or navigation -->
-    <div id="Picture_Slider">
-        <img src="GamePlan%20Pictures/GamePlan%201.jpg" id="image1" style="display: none;">
-        <img src="GamePlan%20Pictures/GamePlan%202.png" id="image2" style="display: none;">
-        <img src="GamePlan%20Pictures/GamePlan%203.jpg" id="image3" style="display: none;">
-        <img src="GamePlan%20Pictures/GamePlan%204.jpg" id="image4" style="display: none;">
-        <img src="GamePlan%20Pictures/GamePlan%205.png" id="image5" style="display: none;">
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<div id="panels">
+    <div id="Abouthead">
+        <h1>About Us</h1>
     </div>
-    <div id="Space_1"></div>
-    <div id="Event_Info_Index">
-        <h1 style="text-align: center;">Upcoming Events</h1>
-        <ul style="text-align: center;">
-            <a href="http://www.comic-con.org/">
-                Comic-Con 2016
-            </a>
-            <p> Summer 2016 </p>
-            <br>
-            <a href="https://www.e3expo.com/">
-                E3 Expo 2016
-            </a>
-            <p> June 12-14 </p>
-            <br>
-            <a href="http://www.gamescom-cologne.com/gamescom/index-9.php">
-                GamesCom 2016
-            </a>
-            <p> Summer 2016 </p>
-            <br>
-            <a href="http://mineconcentral.com/">
-                MineCon 2016
-            </a>
-            <p> Winter 2016 </p>
-            <br>
-            <a href="www.blizzcon.com/">
-                BlizzCon 2016
-            </a>
-            <p> Fall 2016 </p>
-        </ul>
-    </div>
-    <div id="AboutUs_Info_Index">
-        <h1 style="text-align: center;">About Us</h1>
-        <p style="text-align: center; font-size: 18px; margin-left: 4px; margin-right: 4px;">
-            &nbsp&nbsp&nbsp Welcome to our game conference ticket distribution service. Many of the viewer who come on this site will not
-            read this because they have better ways to spend their days, but if you're that lucky person who's reading
-            this than you are awesome. We started off as lone coders but came together with a common goal, gaming conference
-            selling. The team involves Marques, Nick, and Corbin. This site started in the year 1865 after the civil war it was a
-            hard time, but gaming became popular and thus we invented this site. As the years went on our site grew to the popularity
-            it is today. Thank you for coming and enjoying your cash... i mean enthusiasm for gaming with us.
-        </p>
-    </div>
-    <div id="News_Info_Index">
-        <h1 style="text-align: center;">News</h1>
-        <ul style="text-align: center">
-            <li>12/01 Project Start</li>
-            <li>12/06 Index Page is Made</li>
-            <li>12/11 Last Minute Rush</li>
-        </ul>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="FullSizeRender.jpg" width="200" height="200" title="test" alt="profile">
+                <div class="caption">
+                    <h3 style="font-size: 30px">Marques</h3>
+                    <p>One of the webdesigners and the scrum master of this awesome project. He helped to
+                        design the outlook of GamePlan.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h3 style="font-size: 30px">Nick</h3>
+                        <p>The Project Manager and leading man of this crew, Nick helped to establish the
+                            PHP server and databases for all the account information.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3 style="font-size: 30px">Corbin</h3>
+                            <p>The head designer, Corbin has helped to shape the look and design of the website of GamePlan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+<div id="Goalsheader">
+    <div class="page-header">
+        <h1>GamePlan<small> Goals</small></h1>
+    </div>
+    <p style="font-size: 18px; font-family: "Lucida Sans Unicode";">GamePlan is a one of a kind service that offers a new way to purchase event tickets. If your a huge
+    comic book, game, or movie lover then you will find all your nerdy needs here. We deisgned this site to help anyone who
+    wants tickets to those excluive events, like Comic-Con or E3.</p>
+</div>
+
+<footer class="container-fluid text-center">
+    <a href="#myPage" title="To Top">
+        <span href="#myCarousel" class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p href="#myCarousel">Back To The Top</p>
+</footer>
+
 <script src="jquery.js" type="text/javascript"></script>
 <script src="Picture_Slider.js" type="text/javascript"></script>
 </body>
 </html>
-<?php
-
-?>
