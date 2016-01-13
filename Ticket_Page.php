@@ -46,16 +46,49 @@
             </div>
         </div>
     </div>
+    <script>
+        var tickets = Number(document.getElementById("NumberTickets")).value;
+            function funSubmitButton(){ //this function executes when the submit button is clicked
+                tickets = Number(document.getElementById("NumberTickets").value);
+                console.log(tickets);
+                //makes sure tickets is a integer and not a negative number
+                if(tickets <= 0){
+                    //checks to see if tickets var is a fraction and negative
+                    if (tickets%1 !== 0){
+                        console.log("Failure: Number of tickets can't be a fraction and/or negative!");
+                    }
+                    else{
+                        console.log("Failure: Number of tickets must be positive!");
+                    }
+                }
+                //if the 'tickets' is positive
+                else{
+                    if (tickets%1 !== 0){
+                        console.log("Failure: Number of tickets can't be a fraction!");
+                    }
+                    else{
+                        console.log("Success!");
+                        //execute the success code here
+                        //for when the user buys tickets
+                    }
+                }
+            }
+    </script>
+    <datalist id="name_event">
+        <option value="Comicon">
+        <option value="Minecon">
+        <option value="Blizzcon">
+        <option value="Gamescon">
+    </datalist>
     <div id="Name"></div>
     <div id="Ticket_Purchase_1">
         <p style="float: left; margin-top: 0">State where event is being held</p><br><br>
-        <p style="float: left; margin-top: 0">Name of Event</p><input style="float: left; margin-top: 0" type="text" title="Name_of_Event"><br><br>
-        <p style="float: left; margin-top: 0">Number of Tickets</p><input style="float: left; margin-top: 0" type="number" title="Number_of_Tickets"><br><br>
+        <p style="float: left; margin-top: 0">Name of Event</p><input style="float: left; margin-top: 0" type="text" list="name_event" title="Name_of_Event"><br><br>
+        <p style="float: left; margin-top: 0">Number of Tickets</p><input style="float: left; margin-top: 0" id="NumberTickets" type="number" title="Number_of_Tickets"><br><br>
         <p style="float: left; margin-top: 0">Event Start Date</p><input style="float: left; margin-top: 0" type="date" title="Event_Start_Date"><br><br>
         <p style="float: left; margin-top: 0">Event End Date</p><input style="float: left; margin-top: 0" type="date" title="Event_End_Date"><br><br>
+        <button type="button" onclick="funSubmitButton()">Take my Money and give me tickets(a.k.a. submit)!</button>
     </div>
-
-
 </div>
 </body>
 </html>
