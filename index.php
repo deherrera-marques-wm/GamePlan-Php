@@ -76,7 +76,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="GamePlan%20Pictures/GamePlan%201.jpg" alt="Chania">
+            <img src="GamePlan%20Pictures/GamePlan%201.jpg" style="align-content: center" alt="Chania">
         </div>
 
         <div class="item">
@@ -90,7 +90,7 @@
         <div class="item">
             <img src="GamePlan%20Pictures/GamePlan%204.jpg" alt="Flower">
         </div>
-    </div>
+        </div>
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -120,6 +120,7 @@
         <div class="row">
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
+                    <img src="Nick%20Clocksin.jpg" height="200px" width="200px">
                     <div class="caption">
                         <h3 style="font-size: 30px">Nick</h3>
                         <p>The Project Manager and leading man of this crew, Nick helped to establish the
@@ -144,18 +145,30 @@
     <div class="page-header">
         <h1>GamePlan<small> Goals</small></h1>
     </div>
-    <p style="font-size: 18px; font-family: "Lucida Sans Unicode";">GamePlan is a one of a kind service that offers a new way to purchase event tickets. If your a huge
+    <p style="font-size: 18px; font-family: Lucida Sans Unicode;">GamePlan is a one of a kind service that offers a new way to purchase event tickets. If your a huge
     comic book, game, or movie lover then you will find all your nerdy needs here. We deisgned this site to help anyone who
     wants tickets to those excluive events, like Comic-Con or E3.</p>
 </div>
-
 <footer class="container-fluid text-center">
-    <a href="#myPage" title="To Top">
-        <span href="#myCarousel" class="glyphicon glyphicon-chevron-up"></span>
-    </a>
-    <p href="#myCarousel">Back To The Top</p>
-</footer>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">GamePlan</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="profile.php">Profile</a></li>
+                <li><a href="Ticket_Page.php">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#myPage" title="To Top">
+                <span href="#myCarousel" class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <p href="#myCarousel">Back To The Top</p>
+        </div>
 
+    </nav>
+</footer>
 <script src="jquery.js" type="text/javascript"></script>
 <script src="Picture_Slider.js" type="text/javascript"></script>
 </body>
