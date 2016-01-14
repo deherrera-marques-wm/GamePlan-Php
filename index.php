@@ -132,7 +132,7 @@
                     <div class="thumbnail">
                         <div class="caption">
                             <h3 style="font-size: 30px">Corbin</h3>
-                            <p>The head designer, Corbin has helped to code the website of GamePlan. Didn't make very many important decisions, but designed what others told him to until they decided to change everything.</p>
+                            <p>The head designer, Corbin has helped to code the website of GamePlan. He didn't make very many important decisions, but designed what others told him to until they decided to change everything.</p>
                         </div>
                     </div>
                 </div>
@@ -144,9 +144,9 @@
     <div class="page-header">
         <h1>GamePlan<small> Goals</small></h1>
     </div>
-    <p style="font-size: 18px; font-family: "Lucida Sans Unicode";">GamePlan is a one of a kind service that offers a new way to purchase event tickets. If your a huge
-    comic book, game, or movie lover then you will find all your nerdy needs here. We deisgned this site to help anyone who
-    wants tickets to those excluive events, like Comic-Con or E3.</p>
+    <p style='font-size: 18px; font-family: "Lucida Sans Unicode";'>GamePlan is a one of a kind service that offers a new way to purchase event tickets. If your a huge
+    comic book, game, or movie lover then you will find all your nerdy needs here. We designed this site to help anyone who
+    wants tickets to those exclusive events, so if you like Comic-Con or E3, you're at the right place.</p>
 </div>
 
 <footer class="container-fluid text-center">
