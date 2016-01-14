@@ -133,7 +133,7 @@
                     <div class="thumbnail">
                         <div class="caption">
                             <h3 style="font-size: 30px">Corbin</h3>
-                            <p>The head designer, Corbin has helped to shape the look and design of the website of GamePlan.</p>
+                            <p>The head designer, Corbin has helped to code the website of GamePlan. Didn't make very many important decisions, but designed what others told him to until they decided to change everything.</p>
                         </div>
                     </div>
                 </div>
