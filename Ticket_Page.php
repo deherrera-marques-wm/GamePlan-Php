@@ -41,9 +41,9 @@
             <nav class="navbar navbar-default navbar-static-top">
                 <div class="container">
                     <ul class="nav nav-tabs">
-                        <li role="presentation" class="active"><a href="index.php">Home</a></li>
+                        <li role="presentation"><a href="index.php">Home</a></li>
                         <li role="presentation"><a href="profile.php">Profile</a></li>
-                        <li role="presentation"><a href="Ticket_Page.php">Events</a></li>
+                        <li role="presentation" class="active"><a href="Ticket_Page.php">Events</a></li>
                         <div id="signlogin">
                             <button type="button" class="btn btn-default navbar-btn"><a href="loginPage.php"> Sign in</a></button>
                             <button type="button" class="btn btn-default navbar-btn"><a href="createAccount.php"> Create Account</a></button>

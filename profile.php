@@ -58,8 +58,8 @@
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <ul class="nav nav-tabs">
-                    <li role="presentation" class="active"><a href="index.php">Home</a></li>
-                    <li role="presentation"><a href="profile.php">Profile</a></li>
+                    <li role="presentation"><a href="index.php">Home</a></li>
+                    <li role="presentation" class="active"><a href="profile.php">Profile</a></li>
                     <li role="presentation"><a href="Ticket_Page.php">Events</a></li>
                     <div id="signlogin">
                         <button type="button" class="btn btn-default navbar-btn"><a href="loginPage.php"> Sign in</a></button>
@@ -96,7 +96,28 @@
         <button onclick="prompt1()">Add a description for yourself</button><div id="bio1" style="margin-top: 5px; word-wrap: break-word"></div>
     </div>
     <h1 style="margin-top: 277px; margin-left: 25px;">Profile Name</h1>
+            <p>IN BETA</p>
 </div>
+    <footer class="container-fluid text-center">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">GamePlan</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="profile.php">Profile</a></li>
+                    <li><a href="Ticket_Page.php">Events</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <a href="#myPage" title="To Top">
+                    <span href="#myCarousel" class="glyphicon glyphicon-chevron-up"></span>
+                </a>
+                <p href="#myCarousel">Back To The Top</p>
+            </div>
+
+        </nav>
+    </footer>
 </body>
 </html>
 <?php ?>
