@@ -110,7 +110,7 @@
     <div class="row">
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="FullSizeRender.jpg" width="200" height="200" title="test" alt="profile">
+                <img src="Marques.jpg" width="200" height="200" title="test" alt="profile">
                 <div class="caption">
                     <h3 style="font-size: 30px">Marques</h3>
                     <p>One of the webdesigners and the scrum master of this awesome project. He helped to
@@ -134,7 +134,7 @@
                     <div class="thumbnail">
                         <div class="caption">
                             <h3 style="font-size: 30px">Corbin</h3>
-                            <p>The head designer, Corbin has helped to code the website of GamePlan. He didn't make very many important decisions, but designed what others told him to until they decided to change everything.</p>
+                            <p>The head designer, Corbin has helped to code the website of GamePlan.</p>
                         </div>
                     </div>
                 </div>

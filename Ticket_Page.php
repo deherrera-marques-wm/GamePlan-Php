@@ -4,6 +4,15 @@
     <title>GamePlan Purchase Page</title>
     <link href="Styles_Index.css" type="text/css" rel="stylesheet">
     <link rel="icon" type="image/png" href="GamePlan_logo_2.png">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+    #signlogin {
+    align-content: right;
+    align-items: right;
+    text-align: right;
+    }
+    </style>
 </head>
 <body>
 <div id="Main">
@@ -26,24 +35,20 @@
                 <img id="Logo" src="GamePlan_logo_2.png" style="height: 80px; width: 116px;" alt="Logo" onmouseover="Highlight()" onmouseout="UnHighlight()">
             </a>
             <!-- Main Header should go here -->
-            <div id="LoginArea" style="color: white;">
-                <!-- This is where the Login and Username and SignUp with a new account will happen -->
-                <a href="loginPage.php">
-                    Login
-                </a>
-                <br>
-                <a href="createAccount.php">
-                    Sign Up
-                </a>
-            </div>
         </div>
         <div id="Navigation">
             <!-- everything navigation goes here (other than signing up and logging out and creating new accounts) -->
-            <div id="control_nav">
-                <a href="index.php"><div class="NavigationBox" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Home</h3></div></a>
-                <a href="profile.php"><div class="NavigationBox" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Profile</h3></div></a>
-                <a href="Ticket_Page.php"><div class="NavigationBox" style="float: left; margin-right: 3px; margin-left: 3px;"><h3 style="margin-top: 2px; text-align: center;">Buy Tickets</h3></div></a>
-            </div>
+            <nav class="navbar navbar-default navbar-static-top">
+                <div class="container">
+                    <ul class="nav nav-tabs">
+                        <li role="presentation" class="active"><a href="index.php">Home</a></li>
+                        <li role="presentation"><a href="profile.php">Profile</a></li>
+                        <li role="presentation"><a href="Ticket_Page.php">Events</a></li>
+                        <div id="signlogin">
+                            <button type="button" class="btn btn-default navbar-btn"><a href="loginPage.php"> Sign in</a></button>
+                            <button type="button" class="btn btn-default navbar-btn"><a href="createAccount.php"> Create Account</a></button>
+                        </div>
+                    </ul>
         </div>
     </div>
     <script>
@@ -87,7 +92,7 @@
         <p style="float: left; margin-top: 0">Number of Tickets</p><input style="float: left; margin-top: 0" id="NumberTickets" type="number" title="Number_of_Tickets"><br><br>
         <p style="float: left; margin-top: 0">Event Start Date</p><input style="float: left; margin-top: 0" type="date" title="Event_Start_Date"><br><br>
         <p style="float: left; margin-top: 0">Event End Date</p><input style="float: left; margin-top: 0" type="date" title="Event_End_Date"><br><br>
-        <button type="button" onclick="funSubmitButton()">Take my Money and give me tickets(a.k.a. submit)!</button>
+        <button type="button" onclick="funSubmitButton()">Place Order</button>
     </div>
 </div>
 </body>
