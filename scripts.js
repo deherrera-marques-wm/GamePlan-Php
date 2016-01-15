@@ -5,5 +5,4 @@ function prompt1(){
     } else{
         document.getElementById("bio1").innerHTML = "Too long, type something shorter. Please.";
     }
-
 }

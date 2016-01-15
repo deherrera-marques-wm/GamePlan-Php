@@ -55,6 +55,17 @@
         <!-- Nothing goes here this is just here to make is so I can have a margin on the <div id="Header"> -->
     </div>
     <div id="Header_Nav">
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                    <li role="presentation" class="active"><a href="index.php">Home</a></li>
+                    <li role="presentation"><a href="profile.php">Profile</a></li>
+                    <li role="presentation"><a href="Ticket_Page.php">Events</a></li>
+                    <div id="signlogin">
+                        <button type="button" class="btn btn-default navbar-btn"><a href="loginPage.php"> Sign in</a></button>
+                        <button type="button" class="btn btn-default navbar-btn"><a href="createAccount.php"> Create Account</a></button>
+                    </div>
+                </ul>
         <div id="Header">
             <!-- script link for highlight for picture and following header. -->
             <script>
@@ -71,20 +82,6 @@
             </a>
             <!-- Main Header should go here -->
         </div>
-        <div id="Navigation">
-            <!-- everything navigation goes here (other than signing up and logging out and creating new accounts) -->
-            <nav class="navbar navbar-default navbar-static-top">
-                <div class="container">
-                    <ul class="nav nav-tabs">
-                        <li role="presentation" class="active"><a href="index.php">Home</a></li>
-                        <li role="presentation"><a href="profile.php">Profile</a></li>
-                        <li role="presentation"><a href="Ticket_Page.php">Events</a></li>
-                        <div id="signlogin">
-                            <button type="button" class="btn btn-default navbar-btn"><a href="loginPage.php"> Sign in</a></button>
-                            <button type="button" class="btn btn-default navbar-btn"><a href="createAccount.php"> Create Account</a></button>
-                        </div>
-                    </ul>
-        </div>
     </div>
     <div id="Name"></div>
     <!-- Actual page goes here -->
@@ -96,7 +93,7 @@
         <h2>Address</h2>
     </div>
     <div id="description">
-        <button onclick="prompt1()">Add a description for yourself</button><div id="bio1" style="margin-top: 5px;"></div>
+        <button onclick="prompt1()">Add a description for yourself</button><div id="bio1" style="margin-top: 5px; word-wrap: break-word"></div>
     </div>
     <h1 style="margin-top: 277px; margin-left: 25px;">Profile Name</h1>
 </div>
