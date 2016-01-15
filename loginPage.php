@@ -5,11 +5,14 @@
     <link type="text/css" rel="stylesheet" href="loginStylesheet.css">
     <link rel="icon" type="image/png" href="GamePlan_logo_2.png">
 </head>
+<?php
+
+?>
 <body>
 <a href="index.php">
     <img id="Logo" src="GamePlan_logo_2.png" style="height: 80px; width: 116px;" alt="Logo" onmouseover="Highlight()" onmouseout="UnHighlight()" height="1000" width="1000">
 </a>
-<form action="loginPage.php" id="login" method="post">
+<form action="loginPage.php" id="login" action="loginPage.php" method="post">
     <br>
     Username<input type="text" id="user" maxlength="45">
     <br>
@@ -26,5 +29,4 @@
 </body>
 </html>
 <?php
-
 ?>
