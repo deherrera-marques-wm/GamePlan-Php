@@ -1,13 +1,24 @@
-body {
-    align-content: center;
-    text-align: center;
-    background-color: #1D279B;
+#body-color
+{
+    background-color:#6699CC;
+}
+#Sign-In{
+    margin-top:150px;
+    margin-bottom:150px;
+    margin-right:150px;
+    margin-left:450px;
+    border:3px solid #a1a1a1;
+    padding:9px 35px;
+    background: white;
+    width:400px;
+    border-radius:20px;
+    box-shadow: 7px 7px 6px;
+}
+#button{ border-radius:10px;
+    width:100px;
+    height:40px;
+    background: gray;
+    font-weight:bold;
+    font-size:20px
 }
 
-#login {
-    width: 285px;
-    position: fixed;
-    left: 575px;
-    background-color: white;
-
-}
