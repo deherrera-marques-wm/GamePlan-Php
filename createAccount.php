@@ -7,8 +7,6 @@
 </head>
 <body>
 <?php
-
-
 try {
     $dbh = new PDO('mysql:host=127.0.0.1;dbname=GamePlan', 'root', 'root');
 
@@ -75,7 +73,7 @@ if(@$_POST['formSubmit'] == "Submit")
 
     if(!empty($errorMessage))
     {
-        echo("<p>There was an error with your form:</p>\n");
+        echo("<p>There was an error with your form:</p>");
         echo("<ul>" . $errorMessage . "</ul>\n");
     }
 
