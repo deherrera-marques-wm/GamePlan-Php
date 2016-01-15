@@ -134,7 +134,11 @@
                     <div class="thumbnail">
                         <div class="caption">
                             <h3 style="font-size: 30px">Corbin</h3>
+<<<<<<< HEAD
                             <p>The head designer, Corbin has helped to code the website of GamePlan.</p>
+=======
+                            <p>The head designer (whose ideas are apparently garbage, because nobody listens to him), Corbin has helped to code the website of GamePlan. He didn't make very many important decisions, but designed what others told him to until they decided to change everything. He might as well just quit now.</p>
+>>>>>>> 0d0634e8dfac35634514319008bf21fe4d57d08b
                         </div>
                     </div>
                 </div>
