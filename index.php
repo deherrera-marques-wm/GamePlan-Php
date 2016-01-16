@@ -134,11 +134,7 @@
                     <div class="thumbnail">
                         <div class="caption">
                             <h3 style="font-size: 30px">Corbin</h3>
-<<<<<<< HEAD
-                            <p>The head designer, Corbin has helped to code the website of GamePlan. The head designer, Corbin has helped to shape the look and design of the website of GamePlan.</p>
-=======
                             <p>The head designer, Corbin has helped to code the website of GamePlan.</p>
->>>>>>> 1bd756ac147cbb539bcf23d49c9b6f71314a7613
                         </div>
                     </div>
                 </div>
@@ -153,9 +149,6 @@
     <p style='font-size: 18px; font-family: "Lucida Sans Unicode";'>GamePlan is a one of a kind service that offers a new way to purchase event tickets. If your a huge
     comic book, game, or movie lover then you will find all your nerdy needs here. We designed this site to help anyone who
     wants tickets to those exclusive events, so if you like Comic-Con or E3, you're at the right place.</p>
-    <p style="font-size: 18px; font-family: Lucida Sans Unicode;">GamePlan is a one of a kind service that offers a new way to purchase event tickets. If your a huge
-    comic book, game, or movie lover then you will find all your nerdy needs here. We deisgned this site to help anyone who
-    wants tickets to those excluive events, like Comic-Con or E3.</p>
 </div>
 <footer class="container-fluid text-center">
     <nav class="navbar navbar-default">
@@ -172,7 +165,7 @@
             <a href="#myPage" title="To Top">
                 <span href="#myCarousel" class="glyphicon glyphicon-chevron-up"></span>
             </a>
-            <p href="#myCarousel">Back To The Top</p>
+            <p href="#myCarousel" style="text-align: center; align-content: center;">Back To The Top</p>
         </div>
 
     </nav>
