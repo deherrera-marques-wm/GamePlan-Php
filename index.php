@@ -5,6 +5,8 @@
     <link href="Styles_Index.css" type="text/css" rel="stylesheet">
     <link rel="icon" type="image/png" href="GamePlan_logo_2.png">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -110,7 +112,7 @@
     <div class="row">
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="Marques.jpg" width="200px" height="250px" title="test" alt="profile">
+                <img src="Marques.jpg" width="200px" height="250px" title="test" alt="profile" class="img-rounded" class=".img-responsive">
                 <div class="caption">
                     <h3 style="font-size: 30px">Marques</h3>
                     <p>One of the webdesigners and the scrum master of this awesome project. He helped to
@@ -121,7 +123,7 @@
         <div class="row">
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="Nick%20Clocksin.jpg" height="200px" width="200px">
+                    <img class="img-rounded" src="Nick.jpg" height="175px" width="175px" class=".img-responsive">
                     <div class="caption">
                         <h3 style="font-size: 30px">Nick</h3>
                         <p>The Project Manager and leading man of this crew, Nick helped to establish the
