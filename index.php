@@ -167,7 +167,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#myPage">HOME</a></li>
-                <li><a href="#band">PROFILE</a></li>
+                <li><a href="#band">ABOUT</a></li>
                 <li><a href="#tour">EVENTS</a></li>
                 <li><a href="#contact">CONTACT</a></li>
                 </ul>
