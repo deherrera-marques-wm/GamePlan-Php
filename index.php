@@ -180,7 +180,6 @@
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -198,14 +197,6 @@
             <div class="carousel-caption">
                 <h3>BlizzCon</h3>
                 <p>The event for the biggest World of Warcraft fans</p>
-            </div>
-        </div>
-
-        <div class="item">
-            <img src="GamePlan%20Pictures/GamePlan%204.jpg" alt="Los Angeles" width="1200" height="300">
-            <div class="carousel-caption">
-                <h3>LA</h3>
-                <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
             </div>
         </div>
     </div>
